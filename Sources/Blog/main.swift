@@ -14,7 +14,7 @@ struct Blog: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "tonystarkli.com")!
+    var url = URL(string: "https://your-website-url.com")!
     var name = "Blog"
     var description = "A description of Blog"
     var language: Language { .english }
@@ -22,6 +22,4 @@ struct Blog: Website {
 }
 
 // This will generate your website using the built-in Foundation theme:
-try Blog().publish(
-    withTheme: .foundation
-)
+try Blog().publish(withTheme: .foundation)
