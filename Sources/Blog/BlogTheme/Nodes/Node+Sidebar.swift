@@ -18,7 +18,7 @@ extension Node where Context == HTML.BodyContext {
                         .class("pure-u-md-1-1 pure-u-1-4"),
                         .class("author__avatar"),
                         .img(
-                            .src("https://avatars0.githubusercontent.com/u/4062343?s=460&v=4")
+                            .src("https://avatars3.githubusercontent.com/u/19373490?s=460&v=4")
                         )
                     ),
                     .div(
