@@ -14,7 +14,7 @@ struct Blog: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
+    var url = URL(string: "www.tonystarkli.com")!
     var name = "Blog"
     var description = "A description of Blog"
     var language: Language { .english }
