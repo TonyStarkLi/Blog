@@ -9,7 +9,7 @@ import Foundation
 
 struct SocialMediaLink {
     let title:  String
-    let url:    Stirng
+    let url:    String
     let icon:   String
 }
 
